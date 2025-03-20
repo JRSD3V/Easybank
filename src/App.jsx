@@ -1,13 +1,15 @@
 import { useState } from 'react'
+import Navbar from './comps/Navbar'
+import './css/comps/navbar.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <Navbar />
     </>
   )
+
 }
 
 export default App

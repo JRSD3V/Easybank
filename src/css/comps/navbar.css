@@ -1,0 +1,20 @@
+nav {
+    background-color: var(--veryLightGrey);
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.burgerLine {
+    width: 35px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: var(--darkBlue);
+}
+
+.navLinks {
+    position: absolute;
+}
