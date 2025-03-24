@@ -1,0 +1,53 @@
+.headerTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.headerTopBgImg {
+    width: 100%;
+    top: -10%;
+    right: -15%;
+    transform: scale(1.75);
+    position: absolute;
+    z-index: -1;
+}
+
+.headerTopPhoneImg {
+    width: 90%;
+    z-index: -1;
+    margin: 0 auto -7rem;
+    transform: translateY(-25%);
+    object-fit: cover;
+}
+
+.headerBottom {
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.headerBottom h1 {
+    color: var(--darkBlue);
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.headerBottom p {
+    color: var(--greyBlue);
+    line-height: 1.75;
+    margin-top: 1rem;
+}
+
+.headerBottom button {
+    margin-top: 2rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+    color: var(--white);
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
