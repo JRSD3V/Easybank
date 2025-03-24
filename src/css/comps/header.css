@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: relative;
 }
 
 .headerTopBgImg {
     width: 100%;
-    top: -10%;
-    right: -15%;
-    transform: scale(1.75);
+    top: -15%;
+    right: 0;
     position: absolute;
     z-index: -1;
 }

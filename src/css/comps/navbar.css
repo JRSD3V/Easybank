@@ -43,11 +43,12 @@ nav {
     pointer-events: none;
     transition: all 0.3s;
     transform-origin: top;
+    z-index: 5;
 }
 
 .navLinks.active {
     transform: translateX(-50%) scaleY(1);
-    pointer-events: all;
+    pointer-events: all !important;
     transform-origin: top;
 }
 

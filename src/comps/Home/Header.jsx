@@ -4,11 +4,12 @@ const Header = () => {
   return (
     <header>
         <div className='headerTop'>
-            <picture>
-                <source media='(max-width: 768px)' src='Easybank/images/bg-intro-mobile.svg'></source>
-                <source media='(min-width: 769px)' src='Easybank/images/bg-intro-desktop.svg'></source>
-                <img src='Easybank/images/bg-intro-desktop.svg' className='headerTopBgImg'/>
-            </picture>
+        <picture>
+          <source media="(max-width: 768px)" srcSet="Easybank/images/bg-intro-mobile.svg" />
+          <source media="(min-width: 769px)" srcSet="Easybank/images/bg-intro-desktop.svg" />
+          <img src="Easybank/images/bg-intro-desktop.svg" className="headerTopBgImg" alt="Intro Background" />
+        </picture>
+
             <img src='Easybank/images/image-mockups.png' alt='graphic of 4 phones with banking information on them' className='headerTopPhoneImg'/>
         </div>
         <div className='headerBottom'>
