@@ -21,6 +21,7 @@ const Navbar = () => {
             <li className='navItem'><a href='#'>Blog</a></li>
             <li className='navItem'><a href='#'>Careers</a></li>
         </ul>
+        <button className='navButton'>Request Invite</button>
         <div className={`burger ${mobileMenu ? 'burgerActive' : ''}`} onClick={toggleMenu}>
             <div className='burgerLine burgerLine1'></div>
             <div className='burgerLine burgerLine2'></div>

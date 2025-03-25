@@ -80,3 +80,52 @@ nav {
 .burgerActive .burgerLine3 {
     transform: rotate(-45deg) translate(5px, -6px);
 }
+
+.navButton {
+    display: none;
+}
+
+@media (min-width: 860px) {
+    .burger {
+        display: none;
+    }
+
+    .navButton {
+        display: block;
+        width: 150px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+        color: var(--white);
+        font-family: inherit;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+
+    .navLinks {
+        transform: unset;
+        background-color: var(--veryLightGrey);
+        width: unset;
+        max-width: unset;
+        position: unset;
+        margin-top: unset;
+        list-style-type: none;
+        border-radius: unset;
+        text-align: center;
+        pointer-events: all;
+        transition: all 0.3s;
+        transform-origin: top;
+        z-index: 5;
+        display: flex;
+    }
+
+    .navItem {
+        margin: 0 1rem;
+    }
+
+    .navItem a {
+        text-decoration: none;
+        color: var(--greyBlue);
+    }
+}
